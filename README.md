@@ -11,8 +11,13 @@ Ad esempio:
 Se viene chiamata /posts col verbo GET ci aspettiamo “Lista dei post”;
 Se viene chiamato /posts/1 col verbo DELETE ci aspettiamo “Cancellazione del post 1”
 e via dicendo…
-Registrare il router dentro app.js con il prefisso posts/.Numero di push minimo: 10Nota:
+Registrare il router dentro app.js con il prefisso posts/.
+
+Numero di push minimo: 10
+
+Nota:
 Avete anche l’array dei post che vi abbiamo fornito, salvatelo da qualche parte. Ci servirà per i prossimi step. Per oggi vi può servire in caso vogliate provare i bonus.
+
 Bonus
 Provare a restituire la lista dei post dalla rotta index, in formato json
 Provare a restituire un singolo post dalla rotta show, sempre in formato json

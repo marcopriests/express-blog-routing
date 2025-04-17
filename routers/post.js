@@ -11,7 +11,7 @@ router.get('/:id', (req, res) => {
     res.send('Dettaglio del post: ' + req.params.id)
 })
 
-//create
+//store
 router.post('/', (req, res) => {
     res.send('Creo un nuovo post')
 })
@@ -21,8 +21,13 @@ router.put('/:id', (req, res) => {
     res.send('Modifico il post: ' + req.params.id)
 })
 
-//delete
-router.delete('/id', (req, res) => {
+//modify
+router.patch('/:id', (req, res) => {
+    res.send('Modifico il post: ' + req.params.id)
+})
+
+//destroy
+router.delete('/:id', (req, res) => {
     res.send('Elimino il post: ' + req.params.id)
 })
 
